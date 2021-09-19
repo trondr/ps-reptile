@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <DebugType>portable</DebugType>
 
     <DefaultNamespace>PSReptile</DefaultNamespace>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-rc.2"/>
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.1.4" />    
   </ItemGroup>
 
 </Project>
